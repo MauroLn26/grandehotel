@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: auto;
+}
+
+header{
+    color: #7F6F50;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.linha{
+    margin-top: 25px;
+    width: 100%;
+    border-bottom: 1px solid #7f6f50a4;
+}
+
+header div p {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.titu{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.titu2{
+  
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titu3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    left: 500px;
+    margin-bottom: 30px;
+    color: #7F6F50;
+    cursor: pointer;
+}
+
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #7F6F50;
+    font-size: 15px;
+    padding: 5px 10px;
+  
+}
+
+header a:hover{
+    background-color: #a18f6977;
+    /* border: 1px solid #7F6F50; */
+    border-radius: 2px;
+}
+
+/* FIM HEADER */
+
+/* INCIO MAIN */
+.GrandeH1{
+   background-color: #7f6f50a4;
+   width: 100%;
+   height: 45vh;
+   margin: auto;
+   padding: 20px;
+   background-image: url(picina-modelo.jpg);
+   background-size: cover;
+   background-position: center;
+   box-shadow: 1px 1px 5px black;
+   background-attachment: fixed;
+}
+.GrandeH{
+    display: flex;
+    flex-direction: row;
+   text-align: center;
+    border: 3px solid #705827;
+    width: 40%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 20px;
+    color: #ddceb0;
+    justify-content: flex-start;
+    background-color: #595346b5;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section span:nth-last-child(2){
+   border-left: 1px solid black;
+   padding: 10px;
+   
+}
+section span:nth-last-child(3){
+    border-left: 1px solid black;
+    padding: 10px;
+ }
+
+ section span:nth-last-child(1){
+    border-left: 1px solid black;
+    padding: 10px;
+   
+ }
+ section span:nth-last-child(4){
+    padding: 10px;
+    
+ }
+
+ section span p{
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ .g1 input {
+   border: 1px solid #3b311d;
+   outline: 0;
+   color: #c0b6a2;
+   background-color: #72685423;
+ }
+
+ #texto{
+    border: none;
+ }
+
+ .linha2{
+    margin-top: 80px;
+    width: 100%;
+    border-bottom: 1px solid #7f6f50a4;
+}
+
+ /* FIM */
+
+ .descri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7F6F50;
+ }
+
+ .descri1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .descri1 img{
+    width: 15px;
+    height: 15px;
+ }
+
+ .descri2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+ }
+
+ .descri2 p {
+    width: 30%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    color: #7F6F50;
+    padding: 50px;
+    background-color: #7f6f5071;
+    border-radius: 5px;
+ }
+ 
+ .descri21{
+    border-radius: 10px;
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 30%;
+    
+ }
+
+ .descri-alone {
+    padding: 30px;
+    border-radius: 10px;
+ }
+
+ /* SECTION 3 */
+
+ .descri3 {
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+ }
+
+ .descri22 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+   height: 50vh;
+   padding: 10px;
+ }
+
+ .descri23 {
+   color: #75623d;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .descri23 h2 {
+   margin-bottom: 30px;
+ }
+
+ .descri22 p {
+   font-size: 20px;
+   width: 80%;
+   color: #7F6F50;
+   background-color: #7f6f5071;
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 30px;
+ }
+
+ .descri23  img{
+   margin-right: 5px;
+ }
+
+ .descri24 {
+   width: 60%;
+   border-radius: 10px;
+   
+ }
+
+ /* FORMULARIO */
+
+ .form-conteiner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #7f6f506b;
+    margin: 10px;
+    background-image: url(termas2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px black;
+ }
+
+ .form {
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3b311d;
+    background-color: #8a7750c0;
+    padding: 20px;
+ }
+
+ .form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    
+ }
+
+ .form3 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .form3 input {
+    width: 30em;
+    font-size: 1.5vh;
+    color: #78643e;
+    border: 1px solid #695a3b;
+    outline: 0;
+    background-color: ;
+ }
+
+ #tel::placeholder {
+    font-size: 0.9em;
+ }
+
+ #botao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #937e54;
+    font-size: 1.1em;
+    padding: 3px 10px;
+    cursor: pointer;
+    border: 1px solid #7F6F50;
+ }
+
+ #botao:hover {
+    background-color: #937e54;
+    color: white;
+ }
+
+ .fale-conosco {
+    width: 50%;
+    padding: 10px;
+    list-style: none;
+    gap: 1px;
+    column-count: 2;
+ }
+
+ .itens-fale {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+ }
+
+
+ footer p{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2vh;
+   background-color: #695a3b;
+   color: White;
+ }
